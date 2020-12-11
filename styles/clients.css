@@ -1,0 +1,28 @@
+.clients__wrap {
+    display: flex;
+    width: 54%;
+    margin-left: 15.5%;
+}
+
+.clients__contents {
+    margin-left: 15.5%;
+    padding-top: 30px;
+    padding-right: 30px;
+    width: 35%;
+    height: 50%;
+}
+
+.clients__content__text {
+    color: rgba(128, 128, 128, 0.822);
+}
+
+.clients__picture {
+    width: 30%;
+    height: 400px;
+}
+
+@media(max-width:1300px) {
+    .clients__picture {
+        display: none;
+    }
+}

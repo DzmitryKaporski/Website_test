@@ -1,0 +1,120 @@
+.showcase__wrap {
+    margin: 10% 0% 10% 15.5%;
+    width: 68%;
+    height: auto;
+}
+
+.showcase__discription {
+    margin-left: 8px;
+}
+
+.showcase__text {
+    width: 50%;
+    color: rgba(128, 128, 128, 0.822);
+}
+
+.showcase__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.showcase__picture_width_670px {
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    width: 671px;
+    height: 300px;
+}
+
+@media(max-width:990px) {
+    .showcase__picture_width_670px {
+        display: none;
+    }
+}
+
+.showcase__picture_popup_670px {
+    width: 671px;
+    height: 300px;
+    position: absolute;
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.733);
+}
+
+@media(max-width:990px) {
+    .showcase__picture_popup_670px {
+        display: none;
+    }
+}
+
+
+.showcase__picture_popup_text {
+    margin: 240px 0 0 25px;
+}
+
+.showcase__popup_title {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.showcase__popup_text {
+    font-size: 13px;
+}
+
+.showcase__picture_popup_text_margin {
+    margin: 190px 0 0 25px;
+}
+
+.showcase__picture_popup_670px:hover,
+.showcase__picture_popup_300px:hover,
+.showcase__picture_popup_250px:hover {
+    opacity: 10;
+    background: rgba(0, 0, 0, 0.486);
+}
+
+.showcase__picture_height_300px {
+    display: flex;
+    margin-top: 10px;
+    width: 330px;
+    height: 300px;
+    position: relative;
+
+}
+
+@media(max-width:406px) {
+    .showcase__picture_height_300px {
+        display: none;
+    }
+}
+
+.showcase__picture_popup_300px {
+    width: 330px;
+    height: 300px;
+    position: absolute;
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.733);
+
+}
+
+@media(max-width:406px) {
+    .showcase__picture_popup_300px {
+        display: none;
+    }
+}
+
+.showcase__picture_height_250px {
+    display: flex;
+    margin-top: 10px;
+    width: 330px;
+    height: 250px;
+    position: relative;
+}
+
+.showcase__picture_popup_250px {
+    width: 330px;
+    height: 250px;
+    position: absolute;
+    opacity: 0;
+    color: rgba(255, 255, 255, 0.733);
+}
