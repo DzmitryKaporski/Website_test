@@ -1,453 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-    <script src="https://kit.fontawesome.com/47245e170d.js" crossorigin="anonymous"></script>
-</head>
+    <link rel="stylesheet" href="./styles.css" />
+    <script
+      src="https://kit.fontawesome.com/47245e170d.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="page section-front">
-        <div class="header" id='home'>
-            <div class='logo name__logo' id='#'>Logo</div>
-            <div class="wrap">
-                <input type="checkbox" id='check-menu'>
-                <label for="check-menu">MENU</label>
-                <div class="burger-line first"></div>
-                <div class="burger-line second"></div>
-                <div class="burger-line third"></div>
-                <div class="burger-line fourth"></div>
-                <nav class="main-menu">
-                    <a class='burger-menu' href="#home">HOME</a>
-                    <a class='burger-menu' href="#pricing">PRICING</a>
-                    <a class='burger-menu' href="#about">ABOUT</a>
-                    <a class='burger-menu' href="#product">PRODUCTS</a>
-                    <a class='burger-menu' href="#contact">CONTACT</a>
-                </nav>
-            </div>
-            <ul class='menu header__menu'>
-                <div class="header__menu__inner__wrap">
-                    <li class="link menu__link_active"><span class="header__menu_dash_active"> &mdash; </span>
-                        <a class='link__color_white' href="#home">HOME</a></li>
-                    <li class="link menu__link_active"><span class="header__menu_dash_disable"> &mdash; </span>
-                        <a class='link__color_white' href="#pricing">PRICING</a></li>
-                    <li class="link menu__link_active"><span class="header__menu_dash_disable"> &mdash; </span>
-                        <a class='link__color_white' href="#about">ABOUT</a></li>
-                    <li class="link menu__link_active"><span class="header__menu_dash_disable"> &mdash; </span>
-                        <a class='link__color_white' href="#product">PRODUCTS</a></li>
-                    <li class="link menu__link_active"><span class="header__menu_dash_disable"> &mdash; </span>
-                        <a class='link__color_white' href="#faq">FAQ</a></li>
-                    <li class="link menu__link_active"><span class="header__menu_dash_disable"> &mdash; </span>
-                        <a class='link__color_white' href="#contact">CONTACT</a></li>
-                </div>
-            </ul>
+      <div class="header" id="home">
+        <div class="header__logo header__logo-name" id="#">Logo</div>
+        <div class="wrap">
+          <input type="checkbox" id="check-menu" />
+          <label for="check-menu">MENU</label>
+          <div class="burger-line first"></div>
+          <div class="burger-line second"></div>
+          <div class="burger-line third"></div>
+          <div class="burger-line fourth"></div>
+          <nav class="main-menu">
+            <a class="burger-menu" href="#home">HOME</a>
+            <a class="burger-menu" href="#pricing">PRICING</a>
+            <a class="burger-menu" href="#about">ABOUT</a>
+            <a class="burger-menu" href="#product">PRODUCTS</a>
+            <a class="burger-menu" href="#contact">CONTACT</a>
+          </nav>
         </div>
-        <div class="slider middle">
-            <div class="slider__items">
-                <input type="radio" name='r' id='r1' checked>
-                <input type="radio" name='r' id='r2'>
-                <div class="slide s1"><img src="https://clck.ru/SQS86" alt=""></div>
-                <div class="slide"><img src="https://clck.ru/SQShh" alt=""></div>
-            </div>
-            <div class="navigation">
-                <div class="bar"><label for="r1"></label></div>
-                <div class="bar"> <label for="r2"></label></div>
-            </div>
+        <ul class="menu menu-header">
+          <li class="menu__link menu__link_active">
+            <span class="menu__Link__dash-active"> &mdash; </span>
+            <a href="#home">HOME</a>
+          </li>
+          <li class="menu__link menu__link_active">
+            <span class="menu__link__dash-disable"> &mdash; </span>
+            <a href="#pricing">PRICING</a>
+          </li>
+          <li class="menu__link menu__link_active">
+            <span class="menu__link__dash-disable"> &mdash; </span>
+            <a href="#about">ABOUT</a>
+          </li>
+          <li class="menu__link menu__link_active">
+            <span class="menu__link__dash-disable"> &mdash; </span>
+            <a href="#product">PRODUCTS</a>
+          </li>
+          <li class="menu__link menu__link_active">
+            <span class="menu__link__dash-disable"> &mdash; </span>
+            <a href="#faq">FAQ</a>
+          </li>
+          <li class="menu__link menu__link_active">
+            <span class="menu__link__dash-disable"> &mdash; </span>
+            <a href="#contact">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="slider middle">
+        <div class="slider__items">
+          <input type="radio" name="r" id="r1" title="r1" checked />
+          <input type="radio" name="r" id="r2" title="r2" />
+          <div class="slide s1"><img src="https://clck.ru/SQS86" alt="" /></div>
+          <div class="slide"><img src="https://clck.ru/SQShh" alt="" /></div>
         </div>
-
+        <div class="navigation">
+          <div class="bar"><label for="r1"></label></div>
+          <div class="bar"><label for="r2"></label></div>
+        </div>
+      </div>
     </div>
     <div class="preview">
-        <div class="preview__context">
-            <div class="preview__title">HI-TECH DESIGN</div>
-            <div class="preview__text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Earum voluptate autem adipisci accusamus quam nemo esse.
-            </div>
-            <button class="preview__button">EXPLORE</button>
+      <div class="preview__context">
+        <div class="preview__title">HI-TECH DESIGN</div>
+        <div class="preview__text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+          voluptate autem adipisci accusamus quam nemo esse.
         </div>
+        <button class="preview__button">EXPLORE</button>
+      </div>
     </div>
-    <div class='cards'>
-        <div class="cards__wrap">
-            <div class="card card__position">
-                <div class="card__icon"><i class="fas fa-chess-queen"></i></div>
-                <H4 class="card__title">Art Of Coding</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="card card__position">
-                <div class="card__icon"><i class="far fa-calendar"></i></div>
-                <H4 class="card__title">Responsive Design</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="card card__position">
-                <div class="card__icon"><i class="fas fa-medal"></i></div>
-                <H4 class="card__title">Feature Reach</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="card card__position">
-                <div class="card__icon"><i class="fas fa-book-open"></i></div>
-                <H4 class="card__title">Useful Documentation</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="card card__position">
-                <div class="card__icon"><i class="fas fa-tachometer-alt"></i></div>
-                <H4 class="card__title">Fast Delivery</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="card card__position">
-                <div class="card__icon"><i class="fas fa-medal"></i></div>
-                <H4 class="card__title">Free Plugins</H4>
-                <div class="card__context">Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                </div>
-            </div>
+    <div class="cards">
+      <div class="cards__wrap">
+        <div class="card card-position">
+          <div class="card__icon"><i class="fas fa-chess-queen"></i></div>
+          <h2 class="card__title">Art Of Coding</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
         </div>
+        <div class="card card-position">
+          <div class="card__icon"><i class="far fa-calendar"></i></div>
+          <h2 class="card__title">Responsive Design</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card card-position">
+          <div class="card__icon"><i class="fas fa-medal"></i></div>
+          <h2 class="card__title">Feature Reach</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card card-position">
+          <div class="card__icon"><i class="fas fa-book-open"></i></div>
+          <h2 class="card__title">Useful Documentation</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card card-position">
+          <div class="card__icon"><i class="fas fa-tachometer-alt"></i></div>
+          <h2 class="card__title">Fast Delivery</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+        <div class="card card-position">
+          <div class="card__icon"><i class="fas fa-medal"></i></div>
+          <h2 class="card__title">Free Plugins</h2>
+          <div class="card__context">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
+        </div>
+      </div>
     </div>
-    <div class='products' id='product'>
-        <div class="products__wrap" id='about'>
-            <div class="products__preview">
-                <H3 class="products__preview__title">Latest products</H3>
-                <div class="products__preview__contexst">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                </div>
-            </div>
-            <div class="product__inner__wrap">
-                <div class="description">
-                    <div product__picture__item><img class="product__picture" src='https://clck.ru/S7YKF'></div>
-                    <H5 class='product__title'>Triangle Roof &nbsp;&nbsp;&nbsp;
-                        <span class='product__subtitle'>&nbsp; MANAGEMENT </span>
-                    </H5>
-                    <div class="product__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-                    <H5 class="product__description__more"> <a class='product__description__more'
-                            href="https://www.shutterstock.com/">READ MORE</a>
-                        &mdash;</H5>
-                </div>
-                <div class="description">
-                    <div product__picture__item><img class="product__picture" src='https://clck.ru/S7YMw'></div>
-                    <H5 class='product__title'>Triangle Roof &nbsp;&nbsp;&nbsp;
-                        <span class='product__subtitle'>&nbsp; DEVELOPMENY </span>
-                    </H5>
-                    <div class="product__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-                    <H5 class="product__description__more">READ MORE &mdash;</H5>
-                </div>
-                <div class="description">
-                    <div class="product__picture__item"><img class="product__picture" src='https://clck.ru/S7YS2'></div>
-                    <H5 class='product__title'>Triangle Roof &nbsp;&nbsp;&nbsp;
-                        <span class='product__subtitle'>&nbsp;MANAGEMENT</span></H5>
-                    <div class="product__description">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-                    <H5 class="product__description__more">READ MORE &mdash;</H5>
-                </div>
-            </div>
+    <div class="products" id="product">
+      <div class="products__wrap" id="about">
+        <div class="products__preview">
+          <h3 class="products__preview__title">Latest products</h3>
+          <div class="products__preview__contexst">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem
+            ipsum dolor sit amet consectetur adipisicing elit.
+          </div>
         </div>
+        <div class="products__inner-wrap">
+          <div class="description">
+            <div class="products__picture-item">
+              <img
+                class="products__picture"
+                src="https://clck.ru/S7YKF"
+                alt=""
+              />
+            </div>
+            <h4 class="products__title">
+              Triangle Roof &nbsp;&nbsp;&nbsp;
+              <span class="products__subtitle">&nbsp; MANAGEMENT </span>
+            </h4>
+            <div class="products__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <h4 class="products__description-more">
+              <a
+                class="products__description-more"
+                href="https://www.shutterstock.com/"
+                >READ MORE</a
+              >
+              &mdash;
+            </h4>
+          </div>
+          <div class="description">
+            <div products__picture-item>
+              <img
+                class="products__picture"
+                src="https://clck.ru/S7YMw"
+                alt=""
+              />
+            </div>
+            <h4 class="products__title">
+              Triangle Roof &nbsp;&nbsp;&nbsp;
+              <span class="products__subtitle">&nbsp; DEVELOPMENY </span>
+            </h4>
+            <div class="products__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <h4 class="products__description-more">READ MORE &mdash;</h4>
+          </div>
+          <div class="description">
+            <div class="products__picture-item">
+              <img
+                class="products__picture"
+                src="https://clck.ru/S7YS2"
+                alt=""
+              />
+            </div>
+            <h4 class="products__title">
+              Triangle Roof &nbsp;&nbsp;&nbsp;
+              <span class="products__subtitle">&nbsp;MANAGEMENT</span>
+            </h4>
+            <div class="products__description">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit.
+            </div>
+            <h4 class="products__description-more">READ MORE &mdash;</h4>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="logos">
-        <div class="logos__wrap">
-            <a href="https://discord.com/">
-                <div class="logo__item">
-                    <img src='https://clck.ru/S7viQ'></img>
-                    <div class="logos__background_popup"></div>
-                </div>
-            </a>
-            <a href="https://www.netflix.com/">
-                <div class="logo__item">
-                    <img src='https://clck.ru/S7vyT'></img>
-                    <div class="logos__background_popup"></div>
-                </div>
-            </a>
-            <a href="https://www.broadcom.com/">
-                <div class="logo__item_width_180px">
-                    <img src='https://clck.ru/S7w6T'></img>
-                    <div class="logos__background_popup"></div>
-                </div>
-            </a>
-            <a href="https://hoop.photo/">
-                <div class="logo__item">
-                    <img src='https://clck.ru/S7wAH'></img>
-                    <div class="logos__background_popup"></div>
-                </div>
-            </a>
-            <a href="https://www.airbnb.ru/">
-                <div class="logo__item">
-                    <img src='https://clck.ru/S7wHJ'></img>
-                    <div class="logos__background_popup"></div>
-                </div>
-            </a>
-        </div>
+    <div class="logo">
+      <ul class="logo__wrap">
+        <li class="logo__item">
+          <a href="https://discord.com/" title="discord">
+            <img src="https://clck.ru/S7viQ" alt="" />
+          </a>
+        </li>
+        <li class="logo__item">
+          <a href="https://www.netflix.com/" title="netflix">
+            <img src="https://clck.ru/S7vyT" alt="" />
+          </a>
+        </li>
+        <li class="logo__item-width100px">
+          <a href="https://www.broadcom.com/" title="broadcom">
+            <img src="https://clck.ru/S7w6T" alt="" />
+          </a>
+        </li>
+        <li class="logo__item">
+          <a href="https://hoop.photo/" title="hoop">
+            <img src="https://clck.ru/S7wAH" alt="" />
+          </a>
+        </li>
+        <li class="logo__item">
+          <a href="https://www.airbnb.ru/" title="airbnb">
+            <img src="https://clck.ru/S7wHJ" alt="" />
+          </a>
+        </li>
+      </ul>
     </div>
     <div class="reviews">
-        <div class="reviews__wrap">
-            <H2 class="reviews__title">Customer Reviews</H2>
-            <div class="reviews__content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Nobis inventore assumenda explicabo. Doloribus ullam dolorem amet qui commodi optio quo animi est?
-                    Minima similique voluptates veniam? Reprehenderit nesciunt velit ipsum?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quam ullam earum possimus accusantium eum quas inventore sequi.
-                    Cupiditate, explicabo dolorem nulla quae repellendus iusto
-                    maiores itaque tempore ipsa ratione veritatis.
-                </p>
-                <p id='pricing'>
-                    <span class='reviews__content_excretion'> <b>JoH Miher;</b></span> Metronic Customer.
-                </p>
-            </div>
+      <div class="reviews__wrap">
+        <h4 class="reviews__title">Customer Reviews</h4>
+        <div class="reviews__content">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+            inventore assumenda explicabo. Doloribus ullam dolorem amet qui
+            commodi optio quo animi est? Minima similique voluptates veniam?
+            Reprehenderit nesciunt velit ipsum?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ullam
+            earum possimus accusantium eum quas inventore sequi. Cupiditate,
+            explicabo dolorem nulla quae repellendus iusto maiores itaque
+            tempore ipsa ratione veritatis.
+          </p>
+          <p id="pricing">
+            <span class="reviews__content-excretion"> <b>JoH Miher;</b></span>
+            Metronic Customer.
+          </p>
         </div>
+      </div>
     </div>
     <div class="tariffs">
-        <div class="tariffs__cards">
-            <div class="tariffs__item">
-                <div class="tariffs__item__ikon"><i class="fas fa-chess-queen"></i></div>
-                <H4 class="tariffs__item__title">Starter Kit-$ 49</H4>
-                <div class="tariffs__item__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor.
-                    </p>
-                </div>
-                <div class="tariffs__item__list">
-                    <div class="tariffs__item__list__wrap">
-                        <p>
-                            <li>&ndash; Basic Feactures</li>
-                        </p>
-                        <p>
-                            <li>&ndash; Up to 5 products</li>
-                        </p>
-                        <p>
-                            <li>&ndash; 50 Users Paneis</li>
-                        </p>
-                    </div>
-                </div>
-                <button class='tariffs__item__button'>CHOOSE</button>
-            </div>
-            <div class="tariffs__item">
-                <div class="tariffs__item__ikon"><i class="fas fa-medal"></i></div>
-                <H4 class="tariffs__item__title">Professional-$ 149</H4>
-                <div class="tariffs__item__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor.
-                    </p>
-                </div>
-                <div class="tariffs__item__list">
-                    <div class="tariffs__item__list__wrap">
-                        <p>
-                            <li>&ndash; Basic Feactures</li>
-                        </p>
-                        <p>
-                            <li>&ndash; Up to 5 products</li>
-                        </p>
-                        <p>
-                            <li>&ndash; 50 Users Paneis</li>
-                        </p>
-                    </div>
-                </div>
-                <button class='tariffs__item__button'>CHOOSE</button>
-            </div>
-            <div class="tariffs__item">
-                <div class="tariffs__item__ikon"><i class="fas fa-shield-alt"></i></i></div>
-                <H4 class="tariffs__item__title">Advanced-$ 249</H4>
-                <div class="tariffs__item__text">
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor.
-                    </p>
-                </div>
-                <div class="tariffs__item__list">
-                    <div class="tariffs__item__list__wrap">
-                        <p>
-                            <li>&ndash; Basic Feactures</li>
-                        </p>
-                        <p>
-                            <li>&ndash; Up to 5 products</li>
-                        </p>
-                        <p>
-                            <li>&ndash; 50 Users Paneis</li>
-                        </p>
-                    </div>
-                </div>
-                <button class='tariffs__item__button'>CHOOSE</button>
-            </div>
+      <div class="tariffs__cards">
+        <div class="tariffs__item">
+          <div class="tariffs__item__ikon">
+            <i class="fas fa-chess-queen"></i>
+          </div>
+          <h2 class="tariffs__item__title">Starter Kit-$ 49</h2>
+          <div class="tariffs__item__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor.
+            </p>
+          </div>
+          <ul class="tariffs__list">
+            <li class="tariffs__list-item">&ndash; Basic Feactures</li>
+            <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+            <li class="tariffs__list-item">&ndash; 50 Users Paneis</li>
+          </ul>
+          <button class="tariffs__item__button">CHOOSE</button>
         </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item__ikon"><i class="fas fa-medal"></i></div>
+          <h2 class="tariffs__item__title">Professional-$ 149</h2>
+          <div class="tariffs__item__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor.
+            </p>
+          </div>
+          <ul class="tariffs__list">
+            <li class="tariffs__list-item">&ndash; Basic Feactures</li>
+            <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+            <li class="tariffs__list-item">&ndash; 50 Users Paneis</li>
+          </ul>
+          <button class="tariffs__item__button">CHOOSE</button>
+        </div>
+        <div class="tariffs__item">
+          <div class="tariffs__item__ikon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h2 class="tariffs__item__title">Advanced-$ 249</h2>
+          <div class="tariffs__item__text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem
+              ipsum dolor.
+            </p>
+          </div>
+          <ul class="tariffs__list">
+            <li class="tariffs__list-item">&ndash; Basic Feactures</li>
+            <li class="tariffs__list-item">&ndash; Up to 5 products</li>
+            <li class="tariffs__list-item">&ndash; 50 Users Paneis</li>
+          </ul>
+          <button class="tariffs__item__button">CHOOSE</button>
+        </div>
+      </div>
     </div>
-    <div class="clients" id='clients'>
-        <div class="clients__wrap">
-            <div class="clients__content">
-                <H3 class="clients__content__title">Our Clients</H3>
-                <div class="clients__content__text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Hic optio eos odit animi, aspernatur fugit ducimus atque consectetur.
-                    Saepe porro praesentium veniam esse illo. Hic veniam debitis ex eum nostrum?
-                    Quidem, rem omnis, recusandae corporis ullam suscipit repudiandae quo similique
-                    officiis velit veritatis. Delectus aliquid sunt iusto? Tenetur eveniet perferendis
-                    sequi ipsum excepturi libero voluptas, quidem, doloribus, odit sunt aut.
+    <div class="clients" id="clients">
+      <div class="clients__wrap">
+        <div class="clients__content">
+          <h3 class="clients__content__title">Our Clients</h3>
+          <div class="clients__content__text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic optio
+            eos odit animi, aspernatur fugit ducimus atque consectetur. Saepe
+            porro praesentium veniam esse illo. Hic veniam debitis ex eum
+            nostrum? Quidem, rem omnis, recusandae corporis ullam suscipit
+            repudiandae quo similique officiis velit veritatis. Delectus aliquid
+            sunt iusto? Tenetur eveniet perferendis sequi ipsum excepturi libero
+            voluptas, quidem, doloribus, odit sunt aut.
 
-                    <p>
-                        Autem architecto veniam ad amet animi obcaecati dicta quos rerum modi. Adipisci
-                        quis inventore ratione. Labore, veritatis, quas odio beatae quae ex odit
-                        perferendis et accusantium inventore nobis esse possimus.
-                    </p>
-                </div>
-            </div>
-            <div class="clients__picture"><img src="https://clck.ru/SA4CV" alt=""></div>
+            <p>
+              Autem architecto veniam ad amet animi obcaecati dicta quos rerum
+              modi. Adipisci quis inventore ratione. Labore, veritatis, quas
+              odio beatae quae ex odit perferendis et accusantium inventore
+              nobis esse possimus.
+            </p>
+          </div>
         </div>
+        <div class="clients__picture">
+          <img src="https://clck.ru/SA4CV" alt="" />
+        </div>
+      </div>
     </div>
-    <div class="showcase" id='faq'>
-        <div class="showcase__wrap">
-            <div class="showcase__discription">
-                <H3 class="showcase__title">Showcase</H3>
-                <div class="showcase__text">
-                    <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing.
-                        Ipsum dolor fugiat debitis eius.
-                    </p>
-                </div>
-            </div>
-            <div class="showcase__pictures">
-                <div class="showcase__picture_width_670px">
-                    <img src="https://clck.ru/S8vV8" alt="">
-                    <div class="showcase__picture_popup_670px">
-                        <div class='showcase__picture_popup_text'>
-                            <div class='showcase__popup_title'>Art Of Coding</div>
-                            <span class="showcase__popup_text">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="showcase__picture_height_300px">
-                    <img src="https://clck.ru/SAKxe" alt="">
-                    <div class="showcase__picture_popup_300px">
-                        <div class='showcase__picture_popup_text'>
-                            <div class='showcase__popup_title'>Clean Design</div>
-                            <span class="showcase__popup_text">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="showcase__picture_height_250px">
-                    <img src="https://clck.ru/S8eJM" alt="">
-                    <div class="showcase__picture_popup_250px">
-                        <div class='showcase__picture_popup_text_margin'>
-                            <div class='showcase__popup_title'>Clean Design</div>
-                            <span class="showcase__popup_text">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="showcase__picture_height_250px">
-                    <img src="https://clck.ru/SCW3c" alt="">
-                    <div class="showcase__picture_popup_250px">
-                        <div class='showcase__picture_popup_text_margin'>
-                            <div class='showcase__popup_title'>Clean Design</div>
-                            <span class="showcase__popup_text">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing.</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="showcase__picture_height_250px">
-                    <img src="https://clck.ru/S8vZG" alt="">
-                    <div class="showcase__picture_popup_250px">
-                        <div class='showcase__picture_popup_text_margin'>
-                            <div class='showcase__popup_title'>Clean Design</div>
-                            <span class="showcase__popup_text">Lorem ipsum dolor sit amet consectetur,
-                                adipisicing.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="showcase" id="faq">
+      <div class="showcase__wrap">
+        <div class="showcase__description">
+          <h3 class="showcase__title">Showcase</h3>
+          <div class="showcase__text">
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing. Ipsum dolor
+              fugiat debitis eius.
+            </p>
+          </div>
         </div>
+        <div class="showcase__gallery">
+          <div class="showcase__inner-wrapper">
+            <div class="showcase__picture-width600px">
+              <img src="https://clck.ru/S8vV8" alt="" />
+              <div class="showcase__picture-popup670px">
+                <div class="showcase__picture-text">
+                  <div class="showcase__popup-title">Art Of Coding</div>
+                  <span class="showcase__popup-text"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="showcase__picture-height300px">
+              <img src="https://clck.ru/SAKxe" alt="" />
+              <div class="showcase__picture-popup300px">
+                <div class="showcase__picture-text">
+                  <div class="showcase__popup-title">Clean Design</div>
+                  <span class="showcase__popup-text"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase__inner-wrap">
+            <div class="showcase__picture-height250px">
+              <img src="https://clck.ru/S8eJM" alt="" />
+              <div class="showcase__picture-popup250px">
+                <div class="showcase__picture-popup-margin">
+                  <div class="showcase__popup-title">Clean Design</div>
+                  <span class="showcase__popup-text"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="showcase__picture-height250px">
+              <img src="https://clck.ru/SCW3c" alt="" />
+              <div class="showcase__picture-popup250px">
+                <div class="showcase__picture-popup-margin">
+                  <div class="showcase__popup-title">Clean Design</div>
+                  <span class="showcase__popup-text"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="showcase__picture-height250px">
+              <img src="https://clck.ru/S8vZG" alt="" />
+              <div class="showcase__picture-popup250px">
+                <div class="showcase__picture-popup-margin">
+                  <div class="showcase__popup-title">Clean Design</div>
+                  <span class="showcase__popup-text"
+                    >Lorem ipsum dolor sit amet consectetur, adipisicing.</span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div class="footer">
-        <div class="footer__section__wrap">
-            <div class=" footer__inner__wrap">
-                <div class="footer__menu__wrap">
-                    <div class="menu__items">
-                        <ul class='menu__items__list'>
-                            <p>
-                                <li><a href="#">Home</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#about">About</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#products">Products</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#pricing">Prcing</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#clients">Clients</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#">Careers</a></li>
-                            </p>
-                            <p>
-                                <li><a href="">Contact</a></li>
-                            </p>
-                            <p>
-                                <li><a href="#">Tems</a></li>
-                            </p>
-                        </ul>
-                    </div>
-                    <div class="menu__items__socialnetwork">
-                        <ul class='menu__items__list'>
-                            <p>
-                                <li><a href="https://twitter.com/"> Twitte </a></li>
-                            </p>
-                            <p>
-                                <li> <a href="https://www.facebook.com/"> Facebook </a></li>
-                            </p>
-                            <p>
-                                <li><a href="https://www.instagram.com/"> Instagram </a></li>
-                            </p>
-                            <p>
-                                <li><a href="https://www.youtube.com/"> YouTube </a></li>
-                            </p>
-                        </ul>
-                    </div>
-                </div>
-                <form class="form">
-                    <div class="footer__form__wrap">
-                        <H3 class="footer__caption">Send Us A Note</H3>
-                        <input type="text" name="element" placeholder="Name" required class="footer__input_name">
-                        <input type="email" name="element" placeholder="Email" required
-                            class="footer__input_email"></input>
-                        <input type="number" name="element" placeholder="Phone" required
-                            class="footer__input_phone"></input>
-                        <input type="textarea" name="element" placeholder="Message"
-                            class="footer__input_massage"></input>
-                        <button class="footer__button_submit">Submite</button>
-                    </div>
-                </form>
+      <div class="footer__section__wrap">
+        <div class="footer__inner__wrap">
+          <div class="footer__menu__wrap">
+            <div class="footer__menu-items">
+              <ul class="footer__list">
+                <li class="footer__list-item"><a href="#">Home</a></li>
+                <li class="footer__list-item"><a href="#about">About</a></li>
+                <li class="footer__list-item">
+                  <a href="#products">Products</a>
+                </li>
+                <li class="footer__list-item"><a href="#pricing">Prcing</a></li>
+                <li class="footer__list-item">
+                  <a href="#clients">Clients</a>
+                </li>
+                <li class="footer__list-item"><a href="#">Careers</a></li>
+                <li class="footer__list-item"><a href="">Contact</a></li>
+                <li class="footer__list-item"><a href="#">Tems</a></li>
+              </ul>
             </div>
-            <div class="footer__aside">
-                <div class="footer__logo" id='contact'>Logo</div>
-                <div class="footer__link"> <span class='text_blue'>Asentus</span> Theme Powered by: <span
-                        class='text_blue'>Keen Themes.com</span></div>
+            <div class="footer__items-socialnetwork">
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a href="https://twitter.com/"> Twitte </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="https://www.facebook.com/"> Facebook </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="https://www.instagram.com/"> Instagram </a>
+                </li>
+                <li class="footer__list-item">
+                  <a href="https://www.youtube.com/"> YouTube </a>
+                </li>
+              </ul>
             </div>
+          </div>
+          <form class="form">
+            <div class="footer__form__wrap">
+              <h3 class="footer__caption">Send Us A Note</h3>
+              <input
+                type="text"
+                name="element"
+                placeholder="Name"
+                required
+                class="footer__input-name"
+              />
+              <input
+                type="email"
+                name="element"
+                placeholder="Email"
+                required
+                class="footer__input-email"
+              />
+              <input
+                type="number"
+                name="element"
+                placeholder="Phone"
+                required
+                class="footer__input-phone"
+              />
+              <input
+                type="textarea"
+                name="element"
+                placeholder="Message"
+                class="footer__input-massage"
+              />
+              <button class="footer__button-submit" type="submit">
+                Submite
+              </button>
+            </div>
+          </form>
         </div>
+        <div class="footer__aside">
+          <div class="footer__logo" id="contact">Logo</div>
+          <div class="footer__link">
+            <span class="footer__text-blue">Asentus</span> Theme Powered by:
+            <span class="footer__text-blue">Keen Themes.com</span>
+          </div>
+        </div>
+      </div>
     </div>
-    <a href="#"><button class='control-button'>TOP</button></a>
-</body>
-
+    <a href="#"><button class="control-button">TOP</button></a>
+  </body>
 </html>
